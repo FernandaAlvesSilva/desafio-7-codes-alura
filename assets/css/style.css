@@ -1,0 +1,191 @@
+:root{
+    --cor-primaria: #8E2424;
+    --cor-secundaria: #667085;
+    --cor-terciaria: rgb(142, 36, 36 / 0.5);
+    --cor-quaternaria: rgb(195, 25, 25 / 0.3);
+    --cor-quintaria: #3A404E;
+    --font-principal: 'inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-principal);
+}
+
+
+
+.navbar-nav{
+    margin: 0 1rem;
+}
+
+.Logo{
+    font-weight: 600;
+    color: var(--cor-quintaria);
+
+}
+
+.nav-link{
+    color: var(--cor-secundaria);
+    font-weight: 600;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.Cadastrar{
+    background-color: var(--cor-primaria);
+    border: none;
+}
+
+
+.Entrar{
+    background: transparent;
+    border: none;
+    color: var(--cor-secundaria);
+
+}
+
+/* sobre nos */
+
+.sobre{
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.porque{
+    color: var(--cor-quintaria);
+    font-weight: 600;
+}
+
+.lead{
+    color: var(--cor-secundaria);
+    max-width: 56.25rem;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.card-title{
+    color: var(--cor-primaria);
+    font-weight: 600;
+}
+
+.card-subtitle{
+    color: var(--cor-quintaria);
+    font-weight: 600;
+    margin: 1rem 0 1rem 0;
+}
+
+.card-text{
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+}
+
+.first-card{
+    border: none;
+}
+
+
+.vagas{
+    font-weight: 300;
+    color: var(--cor-primaria);
+    font-size: .9rem;
+    background-color: #edb7b737;
+    border-radius: 1rem;
+    width: 10rem;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+}
+
+.talent{
+    color: var(--cor-quintaria);
+    font-weight: 600;
+}
+
+.equipe{
+    color: var(--cor-secundaria);
+    font-size: 1rem; 
+}
+
+.name{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1.5rem ;
+}
+
+.contbx{
+    padding: 1rem;
+}
+
+.cardbx{
+    margin-left: 2rem;
+}
+
+.card-title-job{
+    color: var(--cor-quintaria);
+    font-weight: 600;
+}
+
+.cardyx p{
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    padding: .3rem;
+    margin-top: 1rem;
+}
+
+.mx-auto{
+    max-width: 70rem;
+    border: none;
+    background-color: #edb7b737;
+
+}
+
+.card-body-opinion{
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-title-opinion{
+    color: var(--cor-primaria);
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.card-text-opinion{
+    color: var(--cor-quintaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.name-julia{
+    color: black;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.job-julia{
+    color: var(--cor-secundaria);
+    font-weight: lighter;
+    font-size: .9rem;
+}
+
+.oportunidades{
+    font-weight: 600;
+}
+
+.vagas-abertas{
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+}
+
+.fa-brands{
+    color: var(--cor-primaria);
+    font-size: 1rem;
+}
