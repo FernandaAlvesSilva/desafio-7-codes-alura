@@ -189,3 +189,16 @@
     color: var(--cor-primaria);
     font-size: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+.card-text-opinion{
+    font-size: .9rem;
+    text-align: justify;
+}
+
+#footer{
+    font-size: .9rem;
+}
+
+}
+
